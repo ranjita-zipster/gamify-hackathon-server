@@ -1,0 +1,13 @@
+{
+    "name": "node-api",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon --exec babel-node server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.0.2",
+        "express": "~4.0.0",
+        "firebase-admin": "^9.4.2",
+        "mongoose": "~3.6.13"
+    }
+}
